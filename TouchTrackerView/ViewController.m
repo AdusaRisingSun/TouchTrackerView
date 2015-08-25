@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "TouchTracker.h"
 @interface ViewController ()
 
 @end
@@ -16,7 +16,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    TouchTracker *tt=[[TouchTracker alloc]initWithFrame:CGRectMake(0, 0, self.view.bounds.size.width, self.view.bounds.size.height)];
+    tt.backgroundColor=[UIColor whiteColor];
+    [self.view addSubview:tt];
+    // Do any additional setup after loading t;he view, typically from a nib.
 }
 
 - (void)didReceiveMemoryWarning {

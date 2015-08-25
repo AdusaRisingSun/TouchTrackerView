@@ -15,6 +15,7 @@
 		397188F81B8C56BC000FE0AA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 397188F71B8C56BC000FE0AA /* Images.xcassets */; };
 		397188FB1B8C56BC000FE0AA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 397188F91B8C56BC000FE0AA /* LaunchScreen.xib */; };
 		397189071B8C56BC000FE0AA /* TouchTrackerViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 397189061B8C56BC000FE0AA /* TouchTrackerViewTests.m */; };
+		397189121B8C58CA000FE0AA /* TouchTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 397189111B8C58CA000FE0AA /* TouchTracker.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		397189001B8C56BC000FE0AA /* TouchTrackerViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchTrackerViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		397189051B8C56BC000FE0AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		397189061B8C56BC000FE0AA /* TouchTrackerViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchTrackerViewTests.m; sourceTree = "<group>"; };
+		397189101B8C58CA000FE0AA /* TouchTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchTracker.h; sourceTree = "<group>"; };
+		397189111B8C58CA000FE0AA /* TouchTracker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchTracker.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +90,8 @@
 				397188EC1B8C56BC000FE0AA /* AppDelegate.m */,
 				397188F11B8C56BC000FE0AA /* ViewController.h */,
 				397188F21B8C56BC000FE0AA /* ViewController.m */,
+				397189101B8C58CA000FE0AA /* TouchTracker.h */,
+				397189111B8C58CA000FE0AA /* TouchTracker.m */,
 				397188F41B8C56BC000FE0AA /* Main.storyboard */,
 				397188F71B8C56BC000FE0AA /* Images.xcassets */,
 				397188F91B8C56BC000FE0AA /* LaunchScreen.xib */,
@@ -226,6 +231,7 @@
 				397188F01B8C56BC000FE0AA /* TouchTrackerView.xcdatamodeld in Sources */,
 				397188F31B8C56BC000FE0AA /* ViewController.m in Sources */,
 				397188EA1B8C56BC000FE0AA /* main.m in Sources */,
+				397189121B8C58CA000FE0AA /* TouchTracker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
